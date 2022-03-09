@@ -13,8 +13,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
 The playbook file is /etc/ansible/install-elk.yml
 
 This document contains the following details:
-1. Description of the Topology
-2. Access Policies
+..* Description of the Topology
+..* Access Policies
 ELK Configuration
 Beats in Use
  Machines Being Monitored
