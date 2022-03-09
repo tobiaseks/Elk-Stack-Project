@@ -14,7 +14,7 @@ The playbook file is /etc/ansible/install-elk.yml
 
 This document contains the following details:
 1. Description of the Topology
-Access Policies
+2. Access Policies
 ELK Configuration
 Beats in Use
  Machines Being Monitored
