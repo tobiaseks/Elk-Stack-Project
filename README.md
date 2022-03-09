@@ -2,6 +2,9 @@
 Cloud Monitoring using an ELK stack server
 ## Automated ELK Stack Deployment
 
+The files in this repository were used to configure the network depicted below.
+
+
 ![Network Diagram](https://github.com/tobiaseks/Elk-Stack-Project/blob/54f1088bd8da4b0482ffe4f86811dffb37f7e0be/Diagrams/Elk_Stack_Visualization.JPG)
 
 
@@ -10,12 +13,12 @@ These files have been tested and used to generate a live ELK deployment on Azure
 The playbook file is /etc/ansible/install-elk.yml
 
 This document contains the following details:
-Description of the Topology
-Access Policies
-ELK Configuration
-Beats in Use
- Machines Being Monitored
-How to Use the Ansible Build
+* Description of the Topology
+* Access Policies
+* ELK Configuration
+  * Beats in Use
+  * Machines Being Monitored
+* How to Use the Ansible Build
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
 
