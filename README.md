@@ -40,7 +40,7 @@ What does Metricbeat record?
 
 The configuration details of each machine may be found below.
 
-
+![Table 1](https://github.com/tobiaseks/Elk-Stack-Project/blob/4556b6ac74a62f7602e5c299ad6491fb5249b7e7/Images/Table%201.JPG)
 
 
 
