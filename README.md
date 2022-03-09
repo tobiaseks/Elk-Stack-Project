@@ -2,6 +2,9 @@
 Cloud Monitoring using an ELK stack server
 ## Automated ELK Stack Deployment
 
+The files in this repository were used to configure the network depicted below.
+
+
 ![Network Diagram](https://github.com/tobiaseks/Elk-Stack-Project/blob/54f1088bd8da4b0482ffe4f86811dffb37f7e0be/Diagrams/Elk_Stack_Visualization.JPG)
 
 
