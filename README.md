@@ -43,7 +43,6 @@ The configuration details of each machine may be found below.
 ![Table 1](https://github.com/tobiaseks/Elk-Stack-Project/blob/4556b6ac74a62f7602e5c299ad6491fb5249b7e7/Images/Table%201.JPG)
 
 
-
 ### Access Policies
 
 The machines on the internal network are not exposed to the public Internet.
@@ -54,11 +53,12 @@ Machines within the network can only be accessed by Home Computer and Jump-Box-P
 
 
 Which machine did you allow to access your ELK VM? What was its IP address?
-Answer: Jump-Box-Provisioner 10.3.0.4 via SSH port 22
+* Answer: Jump-Box-Provisioner 10.3.0.4 via SSH port 22
     Home Computer Public IP address via TCP port 5601
 
 A summary of the access policies in place can be found in the table below.
 
+[Table 2](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/Table%202.JPG)
 
 
 ### Elk Configuration
@@ -66,44 +66,52 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because you can run multiple commands, apps and servers from a specific playbook. 
 
 
-Specify the group of machines as well as the remote user
+* Specify the group of machines as well as the remote user
+
+[Configure Elk](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/Configure%20elk.JPG)
+
+* Increase Memory
+
+[Increase Memory](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/increase%20memory.JPG)
+
+* Install the following services
+  * docker.io
+  * python3-pip
+  * docker (docker pip module)
 
 
-Increase Memory
+* Downloading and launching the container with ports
 
-
-Install the following services
-docker.io
-python3-pip
-docker (docker pip module)
-
-
-Downloading and launching the container with ports
-
+[Published Ports](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/published%20elk%20ports.JPG)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
+[Elkvm docker ps](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/elk%20vm%20docker%20ps.JPG)
 
+[Web1 docker ps](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/web%201%20docker%20ps%20-a.JPG)
 
+[Web2 docker ps](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/web%202%20docker%20ps%20-a.JPG)
 
 
 ### Target Machines & Beats
+
 This ELK server is configured to monitor the following machines:
-Web1: 10.3.0.5
-Web2: 10.3.0.6
+* Web1: 10.3.0.5
+* Web2: 10.3.0.6
 
 We have installed the following Beats on these machines:
-Elk Server, Web1 and Web2
-The Elk stack successfully installed are FileBeat and MetricBeat
+* Elk Server, Web1 and Web2
+* The Elk stack successfully installed are FileBeat and MetricBeat
 
 These Beats allow us to collect the following information from each machine:
-Filebeat: logs events and collects informations on changes that occur
-Metricbeat: gathers data on metrics and statistics
+* Filebeat: logs events and collects informations on changes that occur
+* Metricbeat: gathers data on metrics and statistics
 
 ### Using the Playbook
+
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 SSH into the control node and follow the steps below 
-Copy the /etc/ansible/filebeat-configuration.yml file to /etc/ansible/file directory
-Update the /etc/ansible/hosts to add the webserver or elkserver ip addresses
-And then navigate to the (publicipaddress):5601  which will lead you to the Kibana home page.
+* Copy the /etc/ansible/filebeat-configuration.yml file to /etc/ansible/file directory
+* Update the /etc/ansible/hosts to add the webserver or elkserver ip addresses
+* And then navigate to the (publicipaddress):5601  which will lead you to the Kibana home page.
 
