@@ -58,7 +58,7 @@ Which machine did you allow to access your ELK VM? What was its IP address?
 
 A summary of the access policies in place can be found in the table below.
 
-[Table 2](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/Table%202.JPG)
+![Table 2](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/Table%202.JPG)
 
 
 ### Elk Configuration
@@ -68,11 +68,11 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 * Specify the group of machines as well as the remote user
 
-[Configure Elk](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/Configure%20elk.JPG)
+![Configure Elk](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/Configure%20elk.JPG)
 
 * Increase Memory
 
-[Increase Memory](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/increase%20memory.JPG)
+![Increase Memory](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/increase%20memory.JPG)
 
 * Install the following services
   * docker.io
@@ -82,15 +82,15 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 * Downloading and launching the container with ports
 
-[Published Ports](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/published%20elk%20ports.JPG)
+![Published Ports](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/published%20elk%20ports.JPG)
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[Elkvm docker ps](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/elk%20vm%20docker%20ps.JPG)
+![Elkvm docker ps](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/elk%20vm%20docker%20ps.JPG)
 
-[Web1 docker ps](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/web%201%20docker%20ps%20-a.JPG)
+![Web1 docker ps](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/web%201%20docker%20ps%20-a.JPG)
 
-[Web2 docker ps](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/web%202%20docker%20ps%20-a.JPG)
+![Web2 docker ps](https://github.com/tobiaseks/Elk-Stack-Project/blob/53b1e989eddd2a7a3e9bf81fcdaaefd68c85c81c/Images/web%202%20docker%20ps%20-a.JPG)
 
 
 ### Target Machines & Beats
